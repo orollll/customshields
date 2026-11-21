@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "customshields",
+  "version": "${version}",
+  "name": "Custom Shields",
+  "description": "Wind Charge Auto-Hit with a dark settings menu.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.customshields.CustomShieldsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
